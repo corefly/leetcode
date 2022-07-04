@@ -2,7 +2,7 @@ using Corefly.LeetCode.DynamicProgramming.Tests.Comparers;
 
 namespace Corefly.LeetCode.DynamicProgramming.Tests;
 
-public class CountingBitsTest
+public class CountingBitsTests
 {
     [Fact]
     public void Test1()
