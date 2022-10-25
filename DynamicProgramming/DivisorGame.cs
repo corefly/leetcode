@@ -1,4 +1,6 @@
-﻿namespace Corefly.LeetCode.DynamicProgramming;
+﻿using Xunit;
+
+namespace DynamicProgramming;
 
 public class DivisorGame
 {
@@ -21,5 +23,17 @@ public class DivisorGame
         }
 
         return results[n];
+    }
+
+    [Fact]
+    public void Test1()
+    {
+        Assert.True(SolveDivisorGame(2));
+    }
+
+    [Fact]
+    public void Test2()
+    {
+        Assert.False(SolveDivisorGame(3));
     }
 }

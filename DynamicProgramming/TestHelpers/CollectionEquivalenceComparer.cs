@@ -1,4 +1,4 @@
-﻿namespace Corefly.LeetCode.DynamicProgramming.Tests.Comparers;
+﻿namespace DynamicProgramming.TestHelpers;
 
 internal class CollectionEquivalenceComparer<T> : IEqualityComparer<IEnumerable<T>> where T : IEquatable<T>
 {
