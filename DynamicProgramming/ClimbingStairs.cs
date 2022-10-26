@@ -4,19 +4,22 @@ namespace DynamicProgramming;
 
 public class ClimbingStairs
 {
-    public static int ClimbStairs(int n) {
-        if (n == 1) {
+    public static int ClimbStairs(int n)
+    {
+        if (n == 1)
+        {
             return 1;
         }
-        
+
         var n1 = 1;
         var n2 = 2;
-        for(var i = 3; i < n + 1; i++) {
+        for (var i = 3; i < n + 1; i++)
+        {
             var t = n1;
             n1 = n2;
             n2 = t + n2;
         }
-        
+
         return n2;
     }
 
