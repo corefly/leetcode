@@ -8,10 +8,12 @@
 
   <ItemGroup>
     <Compile Remove="2.AddTwoNumbers.cs" />
+    <Compile Remove="66. Plus One.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="2.AddTwoNumbers.cs" />
+    <None Include="66. Plus One.cs" />
   </ItemGroup>
 
   <ItemGroup>
